@@ -24,14 +24,31 @@
     <main>
       <section>
         <h1>Subscribe to our newsletter!</h1>
+        <button id ="mybutton">text</button>
 
         <!-- add a form -->
+        <span id = 'user-name'></span>
+        <span id ='user-password'></span>
       </section>
+      <form action="">
+        <input type="text" name='username' id ='username'>
+        <input type="password" name ='password' id='password'>
+        <button>submit</button>
+      </form>
 
       <section>
         <!-- add buttons that will create and remove dom nodes -->
+      <button class = 'add-link'>Make link</button>
+      <button class = remove-link>Remove link</button>
+      
       </section>
+
     </main>
+    <script>
+      function saySomething(str){
+        alert(str)
+      }
+    </script>
     <script src="index.js"></script>
   </body>
 </html>
